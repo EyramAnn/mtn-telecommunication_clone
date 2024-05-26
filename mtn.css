@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'work sans', sans-serif;
+    max-width: 100%;
+}
+
+.sub {
+    position: fixed;
+    top: 5px;
+    left: 80px;
+    width: 100%;
+    height: 45px;
+    z-index: 90;
+  
+      
+}
+
+.joy {
+    position: absolute;
+    height: 55px;
+    width: 250%;
+    top: -5px;
+    left: -78px;
+   background-image: linear-gradient(to bottom, rgba(0 , 0 , 0 ,0.7),  rgba(0 , 0 , 0 ,0.2)) ;
+    border: none;
+    z-index: -1;
+}  
+
+.sub1 ul {
+    list-style-type: none;
+    width: 300px;
+    display: inline;
+    cursor: pointer;
+   
+   
+}
+.sub li a{
+    text-decoration: none;
+    display: inline;
+    float:left;
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+    margin: 8px;
+}
+
+.sub a:hover{
+    font-size: 16px;
+}
+
+.main {
+    position: fixed;
+    top: 50px;
+    width: 95%;
+    height: 80px;
+    left: 35px;
+    right:  100px;
+    background-color: #ffcb05;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 90;
+}
+
+.main-logo {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    margin: 25px;
+}
+
+.main-logo img {
+    height: 32px;
+    margin-left:40px;
+    cursor: pointer;   
+}
+
+.main-nav {
+    top: 90px;
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 5px;
+    display: flex;  
+}
+
+.main-nav li {
+    margin-right: 100px;  
+}
+.main-nav li a {
+    width: 340px;
+    right: 50px;
+    text-decoration: none;
+    color: rgb(10, 10, 10);  
+}
+
+.main-sm {
+    width: 200px;
+    height: 50px;
+    right: 15px;
+    padding: 35px 5px;
+    cursor: pointer;
+}
+
+.main a:hover{
+    text-decoration: 3px grey underline;
+    text-underline-offset: 33px;
+
+}
+
+.first {
+    position: relative;
+}
+
+.connect {
+        position: relative;
+        top: 40px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 460px;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        background-color: white; 
+        cursor: pointer;
+}
+
+.connect h1 {
+        text-align: center;
+        font-family: 'work sans' , 'Gill sans' ,sans-serif;
+        top: 30px;
+        font-size: 50px;
+        font-weight: bolder;
+      
+}
+
+.handshake {
+     position: absolute;
+    left: 13%;
+    top: 155px;
+    width: 16.5%;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.handshake img {
+        top: 40px;
+        width: 70px;
+        left: 100px;
+}
+
+
+.globe {
+    position: absolute;
+    left: 40%;
+    top: 155px;
+    width: 18%;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.globe img {
+    width: 70px;
+   
+}
+
+
+.cashband {
+    position: absolute;
+    left: 68%;
+    top: 155px;
+    width: 20%;
+    text-align: center;
+}
+
+
+.cashband img {
+    width: 70px;
+}
+   
+.card {
+    position: relative;
+    top: 100px;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 95%;
+    left:30px;
+    right:35px;
+}
+
+.sim img{
+    top: 0;
+    left:0;
+    text-align: center;
+    border-radius: 28px;
+}
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border-radius: 28px;
+}
+
+.sim-note {
+    width: 40%;
+    position: absolute;
+    top: 160px;
+    left:88px;
+    text-align: left;
+    margin: auto;  
+}
+
+.sim-note h2 {
+    font-family:'Gill Sans', 'work sans' , sans-serif;
+    font-size: 57px;
+    font-weight: bolder;
+    color: white;
+    z-index: 2;
+}
+
+.sim-note p {
+    font-family:'work sans' , sans-serif;
+    font-size: 18px;
+    font-weight: 20px;
+    line-height: 1.4;
+    color:white;
+    z-index: 2;
+}
+
+.btn {
+    width: 180px;
+    padding: 14px;
+    background-color: rgba(8, 8, 8, 0.4);
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #ffcb05;
+    color:black;
+    border: #ffcb05;
+}
+
+
+.funny {
+    position: relative;
+    top: 180px;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 95%;
+    left:30px;
+    right:35px;
+    z-index: -1;
+}
+
+
+.funnyface img{
+    top: 0;
+    left:0;
+    text-align: center;
+    border-radius: 28px;
+}
+
+
+.overlay1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    border-radius: 28px;
+}
+.funny-note h2 {
+    position: absolute;
+    top: 310px;
+    left: 380px;
+    text-align: center;
+    color: white;
+    font-family: 'work sans' , 'Gill sans' ,sans-serif;
+    font-size: 54px;
+    font-weight: bolder;
+    z-index: 2;
+}
+
+
+.funny-note1 {
+    position: absolute;
+    top: 460px;
+    left: 7%;
+   right: 0;
+   width: 27%;
+   color: white;
+   border: none;
+   border-radius: 15px;
+   text-align: center;
+   background-color: rgba(192, 187, 187, 0.7);
+   padding: 50px 15px 50px 15px;
+   line-height: 1.4;
+   padding-bottom: 15px;    
+}
+
+
+.funny-note1 h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.funny-note2 {
+    position: absolute;
+    left: 36%;
+    top: 460px;
+    width: 28%;
+   color: white;
+   border: none;
+   border-radius: 15px;
+   text-align: center;
+   background-color: rgba(192, 187, 187, 0.7);
+   padding: 40px 15px 40px 15px;
+   line-height: 1.4;
+   padding-bottom: 5px;    
+}
+
+
+.funny-note2 h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.funny-note3 {
+    position: absolute;
+    left: 66%;
+    top: 460px;
+    width: 27%;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(192, 187, 187, 0.7);
+    padding: 50px 15px 50px 15px;
+    line-height: 1.4;
+    padding-bottom: 15px;  
+}
+
+.funny-note3 h3 {
+    font-size: 24px;
+   font-weight: bold;
+}
+
+.about {
+    position: relative;
+    top: 305px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(12, 10, 10);
+    border-radius: 25px;
+}
+
+
+.more img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.more1 img {
+    width: 26px;
+    padding-right: 10px;
+}
+
+.more {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    width: 160px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: progress;
+}
+
+.more1 {
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    width: 160;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:progress;
+}
+
+.socials a {
+    position: absolute;
+    top: 120px;
+    right: 40px;
+    width: 160px;
+    color: #ffcb05;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight:bolder;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.socials a:hover {
+    color: white;
+    text-decoration: 2px yellow underline;
+    text-underline-offset: 12px;
+    cursor: pointer;
+}
+
+
+.hr {
+    position: absolute;
+    top:160px;
+    height: 1.4px;
+    left:90px;
+    width: 86%;
+    background-color: rgb(43, 41, 41);
+}
+
+.terms {
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    width: 160px;
+    color: white;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+.terms1 {
+    position: absolute;
+    top: 250px;
+    left: 230px;
+    width: 160px;
+    color: white;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+.terms2 {
+    position: absolute;
+    top: 325px;
+    left: 80px;
+    width: 700px;
+    color: white;
+    font-size:x-small;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+
+.avatar {
+    position: fixed;
+    width: 62px;
+    top: 560px;
+    right: 20px;
+    cursor:pointer
+}
+
